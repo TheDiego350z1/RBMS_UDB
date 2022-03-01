@@ -24,8 +24,8 @@ Modulos del ecommerce:
 
 // --- Entidades de la Base de Datos --- //
 
-- Usuarios: Gestionará tanto usuarios administrativos y clientes
 - Tipo_Usuarios: Se puede considerar como roles
+- Usuarios: Gestionará tanto usuarios administrativos y clientes
 - Productos: Gestionará los diferentes productos 
 - Categorías de productos
 - Rubro
@@ -39,8 +39,8 @@ Modulos del ecommerce:
 
 -Tipo_Usuarios: id [int, unique], nombre [varchar40], descripción [varchar255]
 - Usuarios: id [itn, unique], correo [varchar255, unique], nombre [varhar30], apellido [varchar30], cel [varchar8], Tipo_Usuarios [int]
-- Productos: id[bigint, unique], nombre [varchar255], descripción [text], img [text], precio [money], cantidad [int]
 - Categorías: id [itn, unique], nombre [varchar255], descripción [text]
+- Productos: id[bigint, unique], nombre [varchar255], descripción [text], img [text], precio [money], cantidad [int], id_categoria [int]
 - rubros: id [int, unique], nombre [varchar255], descripción [text]
 - Sub-Rubros: id [int, unique], nombre [varchar255], descripción [text], id_rubro [int]
 - Proveedores: id [int], nombre [varchar255], tel [varchar8]
