@@ -22,12 +22,15 @@ Modulos del ecommerce:
       una sección de publicidad en el ecommerce)
     - Alertas sobre existencias de productos y vencimiento en caso de productos perecederos.
 
-//--- Entidades de la Base de Datos --//
+// --- Entidades de la Base de Datos --- //
 
-- Usuarios: Gestionará tanto usuarios administrativos, como clientes (se plantea el separar a dos Entidades
-  distintas: usuarios [Manejaría los usuarios internos] y clientes [Manejaría todos los clientes]).
+- Usuarios: Gestionará tanto usuarios administrativos
+- Clientes: 
 - Productos: Gestionará los diferentes productos 
 - Categorías de productos
 - Rubro:
 - Sub-Rubro
 - Compras
+- Proveedores
+
+
