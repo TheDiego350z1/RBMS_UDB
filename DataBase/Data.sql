@@ -50,7 +50,8 @@ CREATE TABLE Sub_Rubros
 	id INT PRIMARY KEY,
 	nombre VARCHAR(40) NOT NULL,
 	descripcion VARCHAR(255),
-	id_rubro INT FOREIGN KEY REFERENCES Rubros(id)
+	id_rubro INT FOREIGN KEY REFERENCES Rubros(id),
+	id_categoria INT FOREIGN KEY REFERENCES Categorias(id)
 );
 
 CREATE TABLE Proveedores
