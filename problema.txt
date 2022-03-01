@@ -30,7 +30,17 @@ Modulos del ecommerce:
 - Categorías de productos
 - Rubro:
 - Sub-Rubro
-- Compras
 - Proveedores
+- Compras
 
 
+// --- Entidades y atributos --- //
+
+- Usuarios: id [itn, unique], correo [varchar255, unique], nombre [varhar30], apellido [varchar30]
+- Clientes: id [bitint, unique], correo [varchar255, unique], nombre [varchar30], apellido [varchar30], cel [varchar8]
+- Productos: id[bigint, unique], nombre [varchar255], descripción [text], img [text], precio [money], cantidad [int]
+- Categorías: id [itn, unique], nombre [varchar255], descripción [text]
+- rubros: id [int, unique], nombre [varchar255], descripción [text]
+- Sub-Rubros: id [int, unique], nombre [varchar255], descripción [text], id_rubro [int]
+- Proveedores: id [int], nombre [varchar255], tel [varchar8]
+- Compras: id [bitint, unique], numero_factura [int], id_producto [bigint], cantidad [int], costo [money]
