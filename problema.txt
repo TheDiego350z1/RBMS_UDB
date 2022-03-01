@@ -28,10 +28,11 @@ Modulos del ecommerce:
 - Tipo_Usuarios: Se puede considerar como roles
 - Productos: Gestionará los diferentes productos 
 - Categorías de productos
-- Rubro:
+- Rubro
 - Sub-Rubro
 - Proveedores
 - Compras
+- Ventas: Se puede considerar como facturación o facturas
 
 
 // --- Entidades y atributos --- //
@@ -44,3 +45,4 @@ Modulos del ecommerce:
 - Sub-Rubros: id [int, unique], nombre [varchar255], descripción [text], id_rubro [int]
 - Proveedores: id [int], nombre [varchar255], tel [varchar8]
 - Compras: id [bitint, unique], numero_factura [int], id_producto [bigint], cantidad [int], costo [money]
+- ventas: id[bigint, unique], numero_factuara [bitint], id_producto [bigint], cantidad [int], precio [money], total [money], fecha [datetime]
