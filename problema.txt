@@ -1,0 +1,33 @@
+/*
+ * Desafío #1: CASO DE ESTUDIO ECOMMERCE
+*/
+Problematica:
+    - Diseño comceptual de la base de datos (diagrama E-R)
+    - Diseño relacional (Modelo relacional)
+
+Modulos del ecommerce:
+    - Catálogo de productos
+    - Buscador de productos
+    - Gestión de cliente (registro y login)
+    - Gestión de inventarios de productos
+    - Carrito de compras
+    - Zona de Administración
+    - Multiples precios (Para modificación por temporada o descuentos eventuales)
+    - Gestió de cobro y pagos
+    - Factura electrónica
+
+//-- Extra --//
+    - Mercadeo: Permitr enviar notificaciones a correos o redes socales, donde se pueda diseñar una
+      una capaña de marketing para envio masivo, donde se anuncian envíos de ofertas y descuentos (tambien
+      una sección de publicidad en el ecommerce)
+    - Alertas sobre existencias de productos y vencimiento en caso de productos perecederos.
+
+//--- Entidades de la Base de Datos --//
+
+- Usuarios: Gestionará tanto usuarios administrativos, como clientes (se plantea el separar a dos Entidades
+  distintas: usuarios [Manejaría los usuarios internos] y clientes [Manejaría todos los clientes]).
+- Productos: Gestionará los diferentes productos 
+- Categorías de productos
+- Rubro:
+- Sub-Rubro
+- Compras
